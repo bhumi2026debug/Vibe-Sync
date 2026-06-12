@@ -1,0 +1,23 @@
+import '../models/song.dart';
+
+class SongService {
+  List<Song> getSongs() {
+    return [
+      Song(
+        title: "Blinding Lights",
+        artist: "The Weeknd",
+        imageUrl: "assets/images/song1.jpg",
+      ),
+      Song(
+        title: "Shape of You",
+        artist: "Ed Sheeran",
+        imageUrl: "assets/images/song2.jpg",
+      ),
+      Song(
+        title: "Levitating",
+        artist: "Dua Lipa",
+        imageUrl: "assets/images/song3.jpg",
+      ),
+    ];
+  }
+}
